@@ -12,6 +12,15 @@ public class PhonebookVo {
 	public PhonebookVo() {
 		super();
 	}
+	
+	
+
+	public PhonebookVo(int personId) {
+		super();
+		this.personId = personId;
+	}
+
+
 
 	public PhonebookVo(int personId, String name, String hp, String company) {
 		super();
